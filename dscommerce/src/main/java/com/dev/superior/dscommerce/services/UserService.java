@@ -49,7 +49,7 @@ public class UserService implements UserDetailsService {
 			return repository.findByEmail(username).get();
 		}
 		catch (Exception e){
-			throw new UsernameNotFoundException("Email not found");
+			throw new UsernameNotFoundException("Invalid User");
 		}
 	}
 
