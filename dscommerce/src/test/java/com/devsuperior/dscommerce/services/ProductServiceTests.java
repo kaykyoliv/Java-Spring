@@ -65,7 +65,6 @@ public class ProductServiceTests {
         Mockito.when(repository.existsById(dependentProductId)).thenReturn(true);
         Mockito.when(repository.existsById(nonExistingProductId)).thenReturn(false);
 
-
         Mockito.doNothing().when(repository).deleteById(existingProductId);
         Mockito.doThrow(DataIntegrityViolationException.class).when(repository).deleteById(dependentProductId);
     }
