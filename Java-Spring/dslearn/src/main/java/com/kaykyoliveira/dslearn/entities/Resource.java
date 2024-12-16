@@ -1,6 +1,6 @@
 package com.kaykyoliveira.dslearn.entities;
 
-import com.kaykyoliveira.dslearn.enums.ResourceType;
+import com.kaykyoliveira.dslearn.entities.enums.ResourceType;
 import jakarta.persistence.*;
 
 import java.util.ArrayList;

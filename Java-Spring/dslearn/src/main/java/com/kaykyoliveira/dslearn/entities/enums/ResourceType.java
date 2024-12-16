@@ -1,4 +1,4 @@
-package com.kaykyoliveira.dslearn.enums;
+package com.kaykyoliveira.dslearn.entities.enums;
 
 public enum ResourceType {
 
