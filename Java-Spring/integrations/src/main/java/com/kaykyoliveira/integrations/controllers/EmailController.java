@@ -2,6 +2,7 @@ package com.kaykyoliveira.integrations.controllers;
 
 import com.kaykyoliveira.integrations.dto.EmailDTO;
 import com.kaykyoliveira.integrations.services.EmailService;
+import com.kaykyoliveira.integrations.services.SendGridEmailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
