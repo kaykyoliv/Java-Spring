@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="956d99bb-3ea9-4003-912c-e4c926d6a669" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/documentation-api/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/DocumentationApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/DocumentationApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/config/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/config/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/config/ResourceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/config/customgrant/CustomPasswordAuthenticationConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/config/customgrant/CustomPasswordAuthenticationConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/config/customgrant/CustomPasswordAuthenticationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/config/customgrant/CustomPasswordAuthenticationProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/config/customgrant/CustomPasswordAuthenticationToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/config/customgrant/CustomPasswordAuthenticationToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/config/customgrant/CustomUserAuthorities.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/config/customgrant/CustomUserAuthorities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/controllers/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/controllers/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/controllers/ScoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/controllers/ScoreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/controllers/handlers/ControllerExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/controllers/handlers/ControllerExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/dto/CustomErrorDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/dto/CustomErrorDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/dto/FieldMessageDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/dto/FieldMessageDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/dto/MovieDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/dto/MovieDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/dto/ScoreDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/dto/ScoreDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/dto/ValidationErrorDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/dto/ValidationErrorDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/entities/MovieEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/entities/MovieEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/entities/RoleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/entities/RoleEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/entities/ScoreEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/entities/ScoreEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/entities/ScoreEntityPK.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/entities/ScoreEntityPK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/entities/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/entities/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/projections/UserDetailsProjection.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/projections/UserDetailsProjection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/repositories/MovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/repositories/MovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/repositories/ScoreRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/repositories/ScoreRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/services/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/services/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/services/ScoreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/services/ScoreService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/services/exceptions/DatabaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/services/exceptions/DatabaseException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation-api/src/main/java/com/devsuperior/dsmovie/services/exceptions/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/documentation-api/src/main/java/com/kaykyoliveira/dsmovie/services/exceptions/ResourceNotFoundException.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2qLNpsdJHwZTMl6f3EJTVRDWdaz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/kinho/PROGRAMAÇÃO/projetos/Java-Spring/Java-Spring"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="956d99bb-3ea9-4003-912c-e4c926d6a669" name="Changes" comment="" />
+      <created>1734438081659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734438081659</updated>
+    </task>
+    <servers />
+  </component>
+</project>
