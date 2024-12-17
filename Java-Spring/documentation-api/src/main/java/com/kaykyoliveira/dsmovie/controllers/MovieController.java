@@ -2,6 +2,9 @@ package com.kaykyoliveira.dsmovie.controllers;
 
 import java.net.URI;
 
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -24,21 +27,48 @@ import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping(value = "/movies")
+@Tag(name = "Movies", description = "Controller for Movie")
 public class MovieController {
 
 	@Autowired
 	private MovieService service;
 
+	@Operation(
+			description = "Get all movies",
+			summary = "List all movies",
+			responses = {
+					@ApiResponse(description = "Ok", responseCode = "200"),
+			}
+	)
 	@GetMapping(produces = "application/json")
 	public Page<MovieDTO> findAll(Pageable pageable) {
 		return service.findAll(pageable);
 	}
 
+	@Operation(
+			description = "Get movie by id",
+			summary = "Get movie by id",
+			responses = {
+					@ApiResponse(description = "Ok", responseCode = "202"),
+					@ApiResponse(description = "Not found", responseCode = "404"),
+			}
+	)
 	@GetMapping(value = "/{id}", produces = "application/json")
 	public MovieDTO findById(@PathVariable Long id) {
 		return service.findById(id);
 	}
-	
+
+	@Operation(
+		description = "Create a new movie",
+		summary = "Create a new movie",
+		responses = {
+				@ApiResponse(description = "Created", responseCode = "201"),
+				@ApiResponse(description = "Bad Request", responseCode = "400"),
+				@ApiResponse(description = "Unauthorized", responseCode = "401"),
+				@ApiResponse(description = "Forbidden", responseCode = "403"),
+				@ApiResponse(description = "Unprocessable Entity", responseCode = "422")
+		}
+	)
 	@PreAuthorize("hasRole('ROLE_ADMIN')")
 	@PostMapping(produces = "application/json")
 	public ResponseEntity<MovieDTO> insert(@Valid @RequestBody MovieDTO dto) {
@@ -47,13 +77,37 @@ public class MovieController {
 		return ResponseEntity.created(uri).body(dto);
 	}
 
+	@Operation(
+			description = "Update a movie",
+			summary = "Update a movie",
+			responses = {
+					@ApiResponse(description = "Ok", responseCode = "200"),
+					@ApiResponse(description = "Bad Request", responseCode = "400"),
+					@ApiResponse(description = "Unauthorized", responseCode = "401"),
+					@ApiResponse(description = "Forbidden", responseCode = "403"),
+					@ApiResponse(description = "Not found", responseCode = "404"),
+					@ApiResponse(description = "Unprocessable Entity", responseCode = "422")
+			}
+	)
 	@PreAuthorize("hasRole('ROLE_ADMIN')")
 	@PutMapping(value = "/{id}", produces = "application/json")
 	public ResponseEntity<MovieDTO> update(@PathVariable Long id, @Valid @RequestBody MovieDTO dto) {
 		dto = service.update(id, dto);
 		return ResponseEntity.ok().body(dto);
 	}
-	
+
+	@Operation(
+			description = "Delete a movie",
+			summary = "Delete a movie",
+			responses = {
+					@ApiResponse(description = "Success", responseCode = "204"),
+					@ApiResponse(description = "Bad Request", responseCode = "400"),
+					@ApiResponse(description = "Unauthorized", responseCode = "401"),
+					@ApiResponse(description = "Forbidden", responseCode = "403"),
+					@ApiResponse(description = "Not found", responseCode = "404"),
+					@ApiResponse(description = "Unprocessable Entity", responseCode = "422")
+			}
+	)
 	@PreAuthorize("hasRole('ROLE_ADMIN')")
 	@DeleteMapping(value = "/{id}", produces = "application/json")
 	public ResponseEntity<MovieDTO> delete(@PathVariable Long id) {
