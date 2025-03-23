@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: anime-hub
+  threads:
+    virtual:
+      enabled: true
+
+logging:
+  level:
+    anime_hub: debug
+server:
+  servlet:
+    context-path: /
+  error:
+    include-stacktrace: on_param
+  tomcat:
+    threads:
+      max: 20
